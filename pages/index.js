@@ -13,10 +13,10 @@ export default function Home() {
 
       <main className={styles.main}>
       <ul>
-        <li><a href="http://localhost:3000/">Home</a></li>
+        <li><a href="https://victornotas.tk">Home</a></li>
         <li><a href="#news">News</a></li>
         
-        <li class="dropdown">
+        <li className={styles.dropdown}>
         <a href="javascript:void(0)" class="dropbtn">Dropdown</a>
         <div class="dropdown-content">
            <a href="#">Link 1</a>
@@ -25,7 +25,7 @@ export default function Home() {
         </div>
         </li>
   
-        <div class="c">
+        <div className={styles.c}>
         <h2>Agenda Geral</h2>
         </div>
 
