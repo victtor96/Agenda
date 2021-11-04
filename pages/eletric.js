@@ -17,7 +17,7 @@ export default function Home() {
         </h1>
 
         <div className={styles.grid}>
-          <a href="https://nextjs.org/docs" className={styles.card}>
+          <a href="https://nextjs.org/circuitos/p1" className={styles.card}>
             <h2>Circuitos 1</h2>
           </a>
 
