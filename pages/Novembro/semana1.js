@@ -7,9 +7,9 @@ export default function Home() {
     <ul>
   <li><a href="http://localhost:3000/">Home</a></li>
   <li><a href="#news">News</a></li>
-  <li class="dropdown">
+  <li className={styles.dropdown}>
     <a href="javascript:void(0)" class="dropbtn">Dropdown</a>
-    <div class="dropdown-content">
+    <li className={styles.dropdown.content}>
       <a href="#">Link 1</a>
       <a href="#">Link 2</a>
       <a href="#">Link 3</a>
