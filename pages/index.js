@@ -12,9 +12,24 @@ export default function Home() {
       </Head>
 
       <main className={styles.main}>
-        <h1 className={styles.title}>
-          Agenda Geral
-        </h1>
+      <ul>
+        <li><a href="http://localhost:3000/">Home</a></li>
+        <li><a href="#news">News</a></li>
+        
+        <li class="dropdown">
+        <a href="javascript:void(0)" class="dropbtn">Dropdown</a>
+        <div class="dropdown-content">
+           <a href="#">Link 1</a>
+        <a href="#">Link 2</a>
+        <a href="#">Link 3</a>
+        </div>
+        </li>
+  
+        <div class="c">
+        <h2>Agenda Geral</h2>
+        </div>
+
+</ul>
 
         <div className={styles.grid}>
           <a href="https://victornotas.tk/eletric" className={styles.card}>
@@ -45,6 +60,15 @@ export default function Home() {
             <h2>Anotações Gerais</h2>
             <p>
             NOVEMBRO/2021.
+            </p>
+          </a>
+          <a
+            href="https://victornotas.tk/Novembro/semana1"
+            className={styles.card}
+          >
+            <h2>E-Motion</h2>
+            <p>
+            Relatórios,Regras e .
             </p>
           </a>
         </div>
